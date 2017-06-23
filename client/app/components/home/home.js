@@ -2,6 +2,12 @@ import './home.styl';
 import angular from 'angular';
 import _ from 'lodash';
 
+<<<<<<< HEAD
+=======
+// placing an export in front of ar var is the same
+// as exporting the var at the end of the file
+// using export {varname}
+>>>>>>> 4be970c6a405597e1c58ea7eb1760ca077d9fbe6
 export const home = angular.module('home', [])
 .config(function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/');
